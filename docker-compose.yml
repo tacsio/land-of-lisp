@@ -1,0 +1,7 @@
+services:
+    lisp:
+        build: .
+        container_name: lisp
+        working_dir: /app
+        volumes:
+            - ./src:/app
